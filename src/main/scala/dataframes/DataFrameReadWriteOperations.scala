@@ -7,7 +7,7 @@ object DataFrameReadWriteOperations extends App{
 
   // CREATE A SPARK SESSION
   val spark = SparkSession.builder()
-    .appName("Dataframe Basics")
+    .appName("DataframeReadWriteOperations")
     .config("spark.master", "local")
     .getOrCreate()
 
